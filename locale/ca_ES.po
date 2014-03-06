@@ -1,0 +1,291 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:babi.dimension,name:move_line_due_month_week_day__day"
+msgid "Day"
+msgstr "Dia"
+
+msgctxt "model:babi.dimension,name:move_line_due_month_week_day__partner"
+msgid "Party"
+msgstr "Tercers"
+
+msgctxt "model:babi.dimension,name:move_line_due_month_week_day__week"
+msgid "Week"
+msgstr "Setmana"
+
+msgctxt "model:babi.dimension,name:move_line_due_month_week_day__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.dimension,name:move_year_month_count__year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.dimension.column,name:move_year_month_count__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.expression,name:account_move_date"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "model:babi.expression,name:account_move_day"
+msgid "Day"
+msgstr "Dia"
+
+msgctxt "model:babi.expression,name:account_move_id"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "model:babi.expression,name:account_move_journal"
+msgid "Journal"
+msgstr "Diari"
+
+msgctxt "model:babi.expression,name:account_move_line"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "model:babi.expression,name:account_move_line_account"
+msgid "Account"
+msgstr "Compte"
+
+msgctxt "model:babi.expression,name:account_move_line_account_code"
+msgid "Account Code"
+msgstr "Codi compte"
+
+msgctxt "model:babi.expression,name:account_move_line_account_name"
+msgid "Account Name"
+msgstr "Nom compte"
+
+msgctxt "model:babi.expression,name:account_move_line_credit"
+msgid "-Credit"
+msgstr "-Credit"
+
+msgctxt "model:babi.expression,name:account_move_line_currency_name"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "model:babi.expression,name:account_move_line_date"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "model:babi.expression,name:account_move_line_day"
+msgid "Day"
+msgstr "Dia"
+
+msgctxt "model:babi.expression,name:account_move_line_debit"
+msgid "Debit"
+msgstr "Deure"
+
+msgctxt "model:babi.expression,name:account_move_line_debit_credit"
+msgid "Debit - Credit"
+msgstr "Deure - Haver"
+
+msgctxt "model:babi.expression,name:account_move_line_due_date"
+msgid "Due Date"
+msgstr "Data venciment"
+
+msgctxt "model:babi.expression,name:account_move_line_due_day"
+msgid "Due Day"
+msgstr "Dia venciment"
+
+msgctxt "model:babi.expression,name:account_move_line_due_month"
+msgid "Due Month"
+msgstr "Mes venciment"
+
+msgctxt "model:babi.expression,name:account_move_line_due_week"
+msgid "Due Week"
+msgstr "Setmana venciment"
+
+msgctxt "model:babi.expression,name:account_move_line_due_year"
+msgid "Due Year"
+msgstr "Any venciment"
+
+msgctxt "model:babi.expression,name:account_move_line_due_year_month"
+msgid "Due Year-Month"
+msgstr "Any-Mes venciment"
+
+msgctxt "model:babi.expression,name:account_move_line_month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.expression,name:account_move_line_move"
+msgid "Move"
+msgstr "Moviment"
+
+msgctxt "model:babi.expression,name:account_move_line_move_journal_name"
+msgid "Journal"
+msgstr "Diari"
+
+msgctxt "model:babi.expression,name:account_move_line_move_name"
+msgid "Move Number"
+msgstr "Nombre moviment"
+
+msgctxt "model:babi.expression,name:account_move_line_partner"
+msgid "Party"
+msgstr "Tercers"
+
+msgctxt "model:babi.expression,name:account_move_line_partner_name"
+msgid "Party Name"
+msgstr "Nom del tercer"
+
+msgctxt "model:babi.expression,name:account_move_line_payment_type"
+msgid "Payment Type"
+msgstr "Tipus de pagament"
+
+msgctxt "model:babi.expression,name:account_move_line_period"
+msgid "Period"
+msgstr "Període"
+
+msgctxt "model:babi.expression,name:account_move_line_self"
+msgid "Move Line"
+msgstr "Apunt"
+
+msgctxt "model:babi.expression,name:account_move_line_state"
+msgid "State"
+msgstr "Estat"
+
+msgctxt "model:babi.expression,name:account_move_line_week"
+msgid "Week"
+msgstr "Setmana"
+
+msgctxt "model:babi.expression,name:account_move_line_year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.expression,name:account_move_line_year_month"
+msgid "Year-Month"
+msgstr "Any-Mes"
+
+msgctxt "model:babi.expression,name:account_move_month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.expression,name:account_move_number"
+msgid "Number"
+msgstr "Número"
+
+msgctxt "model:babi.expression,name:account_move_period"
+msgid "Period"
+msgstr "Període"
+
+msgctxt "model:babi.expression,name:account_move_post_number"
+msgid "Post Number"
+msgstr "Número confirmat"
+
+msgctxt "model:babi.expression,name:account_move_self"
+msgid "Move"
+msgstr "Moviment"
+
+msgctxt "model:babi.expression,name:account_move_state"
+msgid "State"
+msgstr "Estat"
+
+msgctxt "model:babi.expression,name:account_move_week"
+msgid "Week"
+msgstr "Setmana"
+
+msgctxt "model:babi.expression,name:account_move_year"
+msgid "Year"
+msgstr "Any"
+
+msgctxt "model:babi.expression,name:account_move_year_month"
+msgid "Year-Month"
+msgstr "Any-Mes"
+
+msgctxt "model:babi.filter,name:cash_accounts"
+msgid "Cash"
+msgstr "Efectiu"
+
+msgctxt "model:babi.filter,name:cash_move_lines"
+msgid "Cash"
+msgstr "Efectiu"
+
+msgctxt "model:babi.filter,name:creditor_accounts"
+msgid "Creditors"
+msgstr "Creditors"
+
+msgctxt "model:babi.filter,name:creditor_move_lines"
+msgid "Creditors"
+msgstr "Creditors"
+
+msgctxt "model:babi.filter,name:debtor_accounts"
+msgid "Debtors"
+msgstr "Deutors"
+
+msgctxt "model:babi.filter,name:debtor_creditor_accounts"
+msgid "Debtors & Creditors"
+msgstr "Deutors i creditors"
+
+msgctxt "model:babi.filter,name:debtor_creditor_move_lines"
+msgid "Debtors & Creditors"
+msgstr "Deutors i creditors"
+
+msgctxt "model:babi.filter,name:debtor_move_lines"
+msgid "Debtors"
+msgstr "Deutors"
+
+msgctxt "model:babi.filter,name:expense_accounts"
+msgid "Expense"
+msgstr "Despesa"
+
+msgctxt "model:babi.filter,name:expense_move_lines"
+msgid "Expense"
+msgstr "Despesa"
+
+msgctxt "model:babi.filter,name:income_accounts"
+msgid "Income"
+msgstr "Ingressos"
+
+msgctxt "model:babi.filter,name:income_expense_accounts"
+msgid "Income & Expense"
+msgstr "Ingressos i despeses"
+
+msgctxt "model:babi.filter,name:income_expense_move_lines"
+msgid "Income & Expense"
+msgstr "Ingressos i despeses"
+
+msgctxt "model:babi.filter,name:income_move_lines"
+msgid "Income"
+msgstr "Ingressos"
+
+msgctxt "model:babi.filter,name:unreconciled_creditor_accounts"
+msgid "Unreconciled Creditors"
+msgstr "Creditors no conciliats"
+
+msgctxt "model:babi.filter,name:unreconciled_creditor_move_lines"
+msgid "Unreconciled Creditors"
+msgstr "Creditors no conciliats"
+
+msgctxt "model:babi.filter,name:unreconciled_debtor_accounts"
+msgid "Unreconciled Debtors"
+msgstr "Deutors no conciliats"
+
+msgctxt "model:babi.filter,name:unreconciled_debtor_creditor_accounts"
+msgid "Unreconciled Debtors & Creditors"
+msgstr "Deutors i creditors no conciliats"
+
+msgctxt "model:babi.filter,name:unreconciled_debtor_creditor_move_lines"
+msgid "Unreconciled Debtors & Creditors"
+msgstr "Deutors i creditors no conciliats"
+
+msgctxt "model:babi.filter,name:unreconciled_debtor_move_lines"
+msgid "Unreconciled Debtors"
+msgstr "Deutors no conciliats"
+
+msgctxt "model:babi.measure,name:move_line_due_month_week_day__subtotal"
+msgid "Total amount"
+msgstr "Import total"
+
+msgctxt "model:babi.measure,name:move_year_month_count__count"
+msgid "Moves"
+msgstr "Moviments"
+
+msgctxt "model:babi.report,name:move_line_due_month_week_day"
+msgid "Due Date Week"
+msgstr "Setmana venciment"
+
+msgctxt "model:babi.report,name:move_year_month_count"
+msgid "Account Move Count"
+msgstr "Nombre d'assentaments"
