@@ -7,104 +7,145 @@
         <record model="babi.filter" id="income_accounts">
             <field name="name">Income</field>
             <field name="model" search="[('model', '=', 'account.account')]"/>
-            <field name="domain">[('code', 'ilike', '7')]</field>
+            <field name="domain"
+                eval="[('code', 'ilike', '7')]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="expense_accounts">
             <field name="name">Expense</field>
             <field name="model" search="[('model', '=', 'account.account')]"/>
-            <field name="domain">[('code', 'ilike', '6')]</field>
+            <field name="domain"
+                eval="[('code', 'ilike', '6')]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="income_expense_accounts">
             <field name="name">Income &amp; Expense</field>
             <field name="model" search="[('model', '=', 'account.account')]"/>
-            <field name="domain">['OR', [('code', 'ilike', '6%')], [('code', 'ilike', '7%')]]</field>
+            <field name="domain"
+                eval="['OR', [('code', 'ilike', '6%')], [('code', 'ilike', '7%')]]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="debtor_accounts">
             <field name="name">Debtors</field>
             <field name="model" search="[('model', '=', 'account.account')]"/>
-            <field name="domain">[('code', 'ilike', '43%')]</field>
+            <field name="domain"
+                eval="[('code', 'ilike', '43%')]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="creditor_accounts">
             <field name="name">Creditors</field>
             <field name="model" search="[('model', '=', 'account.account')]"/>
-            <field name="domain">['OR', [('code', 'ilike', '40%')], [('code', 'ilike', '41%')]]</field>
+            <field name="domain"
+                eval="['OR', [('code', 'ilike', '40%')], [('code', 'ilike', '41%')]]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="debtor_creditor_accounts">
             <field name="name">Debtors &amp; Creditors</field>
             <field name="model" search="[('model', '=', 'account.account')]"/>
-            <field name="domain">['OR',[('code', 'ilike', '40%')], [('code', 'ilike', '41%')], [('code', 'ilike', '43%')]]</field>
+            <field name="domain"
+                eval="['OR',[('code', 'ilike', '40%')], [('code', 'ilike', '41%')], [('code', 'ilike', '43%')]]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="unreconciled_debtor_accounts">
             <field name="name">Unreconciled Debtors</field>
             <field name="model" search="[('model', '=', 'account.account')]"/>
-            <field name="domain">[('code', 'ilike', '43%')]</field>
+            <field name="domain"
+                eval="[('code', 'ilike', '43%')]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="unreconciled_creditor_accounts">
             <field name="name">Unreconciled Creditors</field>
             <field name="model" search="[('model', '=', 'account.account')]"/>
-            <field name="domain">['OR', [('code', 'ilike', '40%')], [('code', 'ilike', '41%')]]</field>
+            <field name="domain"
+                eval="['OR', [('code', 'ilike', '40%')], [('code', 'ilike', '41%')]]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="unreconciled_debtor_creditor_accounts">
             <field name="name">Unreconciled Debtors &amp; Creditors</field>
             <field name="model" search="[('model', '=', 'account.account')]"/>
-            <field name="domain">['OR', [('code', 'ilike', '40%')], [('code', 'ilike', '41%')], [('code', 'ilike', '43%')]]</field>
+            <field name="domain"></field>
+            <field name="domain"
+                eval="['OR', [('code', 'ilike', '40%')], [('code', 'ilike', '41%')]]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="cash_accounts">
             <field name="name">Cash</field>
             <field name="model" search="[('model', '=', 'account.account')]"/>
-            <field name="domain">[('code', 'ilike', '57%')]</field>
+            <field name="domain"
+                eval="[('code', 'ilike', '57%')]"
+                pyson="1"/>
         </record>
 
         <!-- Account Move Lines -->
         <record model="babi.filter" id="income_move_lines">
             <field name="name">Income</field>
             <field name="model" search="[('model', '=', 'account.move.line')]"/>
-            <field name="domain">[('account', 'ilike', '7%')]</field>
+            <field name="domain"
+                eval="[('account', 'ilike', '7%')]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="expense_move_lines">
             <field name="name">Expense</field>
             <field name="model" search="[('model', '=', 'account.move.line')]"/>
-            <field name="domain">[('account', 'ilike', '6%')]</field>
+            <field name="domain"
+                eval="[('account', 'ilike', '6%')]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="income_expense_move_lines">
             <field name="name">Income &amp; Expense</field>
             <field name="model" search="[('model', '=', 'account.move.line')]"/>
-            <field name="domain">['OR',[('account', 'ilike', '6%')],[('account', 'ilike', '7%')]]</field>
+            <field name="domain"
+                eval="['OR',[('account', 'ilike', '6%')],[('account', 'ilike', '7%')]]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="debtor_move_lines">
             <field name="name">Debtors</field>
             <field name="model" search="[('model', '=', 'account.move.line')]"/>
-            <field name="domain">[('account', 'ilike', '43%')]</field>
+            <field name="domain"
+                eval="[('account', 'ilike', '43%')]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="creditor_move_lines">
             <field name="name">Creditors</field>
             <field name="model" search="[('model', '=', 'account.move.line')]"/>
-            <field name="domain">['OR', [('account', 'ilike', '40%')], [('account', 'ilike', '41%')]]</field>
+            <field name="domain"
+                eval="['OR', [('account', 'ilike', '40%')], [('account', 'ilike', '41%')]]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="debtor_creditor_move_lines">
             <field name="name">Debtors &amp; Creditors</field>
             <field name="model" search="[('model', '=', 'account.move.line')]"/>
-            <field name="domain">['OR', [('account', 'ilike', '40%')], [('account', 'ilike', '41%')], [('account', 'ilike', '43%')]]</field>
+            <field name="domain"
+                eval="['OR', [('account', 'ilike', '40%')], [('account', 'ilike', '41%')], [('account', 'ilike', '43%')]]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="unreconciled_debtor_move_lines">
             <field name="name">Unreconciled Debtors</field>
             <field name="model" search="[('model', '=', 'account.move.line')]"/>
-            <field name="domain">[('reconciliation', '=', None), ('account', 'ilike', '43%')]</field>
+            <field name="domain"
+                eval="[('reconciliation', '=', None), ('account', 'ilike', '43%')]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="unreconciled_creditor_move_lines">
             <field name="name">Unreconciled Creditors</field>
             <field name="model" search="[('model', '=', 'account.move.line')]"/>
-            <field name="domain">[('reconciliation', '=', None), ['OR', [('account', 'ilike', '40%')], [('account', 'ilike', '41%')]]]</field>
+            <field name="domain"
+                eval="[('reconciliation', '=', None), ['OR', [('account', 'ilike', '40%')], [('account', 'ilike', '41%')]]]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="unreconciled_debtor_creditor_move_lines">
             <field name="name">Unreconciled Debtors &amp; Creditors</field>
             <field name="model" search="[('model', '=', 'account.move.line')]"/>
-            <field name="domain">[('reconciliation', '=', None), ['OR', [('account', 'ilike', '40%')], [('account', 'ilike', '41%')], [('account', 'ilike', '43%')]]]</field>
+            <field name="domain"
+                eval="[('reconciliation', '=', None), ['OR', [('account', 'ilike', '40%')], [('account', 'ilike', '41%')], [('account', 'ilike', '43%')]]]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="cash_move_lines">
             <field name="name">Cash</field>
             <field name="model" search="[('model', '=', 'account.move.line')]"/>
-            <field name="domain">[('account', 'ilike', '57%')]</field>
+            <field name="domain"
+                eval="[('account', 'ilike', '57%')]"
+                pyson="1"/>
         </record>
 
         <!-- Expressions -->
